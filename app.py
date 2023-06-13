@@ -21,7 +21,7 @@ if selected_facts:
 
     notification_title = f"Did you know? {selected_subject}"
     notification_message = fact
-    notification_timeout = 10  # seconds
+    notification_timeout = 15  # seconds
    #notification_app_icon = 'path/to/app/icon.png'
 
     notification.notify(
@@ -33,7 +33,7 @@ if selected_facts:
 else:
     notification_title = f"Error"
     notification_message = 'No interestes selected'
-    notification_timeout = 3  # seconds
+    notification_timeout = 5  # seconds
    #notification_app_icon = 'path/to/app/icon.png'
 
     notification.notify(
